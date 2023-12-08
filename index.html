@@ -54,14 +54,18 @@
 <td><left><img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/TecNM_logo.png" border="0" height="150px" width="300px"></left></td>
 <td><right><img src="img/logo.png" border="0" height="150px" width="150px"></right></td>
 </tr></table>
-<center>
-<h1><p>Loginnn</p></h1>
-</center>
-<center>
-<h1><p>Autor: Omar Segura </p></h1></center>
-<center>
-<h1><p>Maestro: Miguel Maa</p></h1></center>
+<div class="login-container">
+        <h2>Iniciar sesión</h2>
+        <form action="/login" method="post">
+            <label for="username">Usuario:</label>
+            <input type="text" id="username" name="username" required>
 
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Iniciar sesión">
+        </form>
+    </div>
 </body>
 
 </html> 
